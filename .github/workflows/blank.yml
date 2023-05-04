@@ -1,5 +1,5 @@
 on: [push]
-  name: Azure ARM
+  name: azuredeploy.parameters.json
   jobs:
     build-and-deploy:
       runs-on: ubuntu-latest
