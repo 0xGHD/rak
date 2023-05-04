@@ -20,6 +20,7 @@ jobs:
           subscriptionId: ${{ secrets.AZURE_SUBSCRIPTION }}
           resourceGroupName: kaus
           template: ./az.txt
+          parameter: 'adminUsername=kavya adminpassword=Chinnu@12345 '
           
 
         # output containerName variable from template
