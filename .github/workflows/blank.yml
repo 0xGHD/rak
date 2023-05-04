@@ -20,7 +20,7 @@ jobs:
           subscriptionId: ${{ secrets.AZURE_SUBSCRIPTION }}
           resourceGroupName: kaus
           template: ./az.txt
-          parameters: 'kawdadminpasswordOrKey=Chinnu@12345 kalinuxadminpasswordOrKey=Chinnu@12345 Adm2=kavya adminusername=yuvathi'
+          parameters: 'Kavyaadminpassword=Chinnu@12345 KavyaadminusernameOrpassword=Chinnu@12345'
 
         # output containerName variable from template
       - run: echo ${{ steps.deploy.outputs.containerName }}
