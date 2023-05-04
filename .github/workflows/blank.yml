@@ -18,7 +18,7 @@ jobs:
         uses: azure/arm-deploy@v1
         with:
           subscriptionId: ${{ secrets.AZURE_SUBSCRIPTION }}
-          resourceGroupName: kiki
+          resourceGroupName: kaus
           template: ./az.txt
           parameter: 'adminUsername=kavya adminpassword=Chinnu@12345 '
           
